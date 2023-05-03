@@ -11,22 +11,22 @@
 Сотрудникам, которые только начинают работать с системой контроля версия Git необходимо ознакомиться с инструкцией по установке Git а также с базовыми командами. Для начала работы установите Git. Актуальная версия Git а также инструкции по установке доступна по ссылке https://git-scm.com/downloads
 
 ### Настройте профиль Git. Для этого:
-1) Внесите имя пользователя: git config --global user.name "User Name"
-2) внесите свой email адрес: git config --global user.email email@user.com
-3) Посмотреть текущий профиль git config --list --show-origin
+1) Внесите имя пользователя: `git config --global user.name "User Name"`
+2) внесите свой email адрес: `git config --global user.email email@user.com`
+3) Посмотреть текущий профиль `git config --list --show-origin`
 4) Также в домашней директории пользователя будет создан файл .gitconfig с текщим профилем. Образец файла доступен по ссылке https://github.com/eds-ch/SF2/raw/master/.gitconfig
 
 ### Работа с репозиторием
-1) Клонируйте репозиторий: git clone https://github.com/eds-ch/SF2.git 
-2) Переключитесь на ветку Development: git checkout Development
-3) Создать свою ветку и перейти в нее: git checkout branch DEV-NEW-BRANCH-NAME
+1) Клонируйте репозиторий: `git clone https://github.com/eds-ch/SF2.git` 
+2) Переключитесь на ветку Development: `git checkout Development`
+3) Создать свою ветку и перейти в нее: `git checkout branch DEV-NEW-BRANCH-NAME`
 
 ### После внесения изменений в проект необходимо выгрузить их в свой ветку репозитория Git
-1) Выполнить git add <имя файла> для добавления вашего нового файла в индекс Git. Или git add . для добавления всех изменений
-2) git commit -m '<информация о коммите>'
-3) загрузить в свою ветку git push origin <name of branch>
+1) Выполнить `git add <имя файла>` для добавления вашего нового файла в индекс Git. Или `git add .` для добавления всех изменений
+2) `git commit -m '<информация о коммите>'`
+3) загрузить в свою ветку `git push origin <name of branch>`
 
 ### Как посмотреть историю своих коммитов.
- 1) git log --graph
- 2) Для удобства можно создать alias команды log --graph при помощи команда git config --global alias.history 'log --graph'. Таким образом при введение команды git history будет отображаться вывод команды git log --graph.
+ 1) `git log --graph`
+ 2) Для удобства можно создать alias команды log --graph при помощи команда `git config --global alias.history 'log --graph'`. Таким образом при введение команды `git history` будет отображаться вывод команды `git log --graph`.
 
