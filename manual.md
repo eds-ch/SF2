@@ -19,7 +19,8 @@
 ### Работа с репозиторием
 1) Клонируйте репозиторий: `git clone https://github.com/eds-ch/SF2.git` 
 2) Переключитесь на ветку **Development**: `git checkout Development`
-3) Создайте свою ветку и перейдите в нее: `git checkout branch DEV-NEW-BRANCH-NAME`
+3) Создайте свою ветку: `git branch DEV-NEW-BRANCH-NAME`
+4) Перейдите в свою ветку `get checkout DEV-NEW-BRANCH-NAME`
 
 ### После внесения изменений в проект необходимо выгрузить их в свою ветку репозитория Git
 1) Выполните `git add <имя файла>` для добавления вашего нового файла в локальный индекс Git, или `git add .` для добавления всех изменений.
